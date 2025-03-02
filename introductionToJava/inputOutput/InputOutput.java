@@ -8,7 +8,9 @@ public class InputOutput {
         // Rule2: Java is a case-sensitive language.
         // Rule3: Inside the paranthesis, you can use mathematics.
         // Rule4: Use double quotes for String o/p.
-               
-        System.out.println(10);   // Output
+        // Rule5: You can concatenate Sys.print.out(1+1+"Hello"); === 2Hello.
+        // Rule6: Operators follow BODMAS/BIDMAS.
+        
+        System.out.println(4+3*6-7/2);   // Output
     }
 }
