@@ -1,4 +1,6 @@
-package introductionToJava.inputOutput;
+package introductionToJava.inputOutput; // Need to update JDK version.
+
+import java.util.*;     // IMPORTS ALL UTILITY PACKAGES.
 
 public class InputOutput {
     public static void main(String[] args) {
@@ -18,6 +20,17 @@ public class InputOutput {
         //              Boolean(T/F), etc.
 
         // int, float, char, boolean, float, double,
+
+        // INPUTS : Scanner, they need to be closed!
+
+        Scanner TakeInput = new Scanner(System.in); // TakeInput --> This is just a type of variable/name. [ACTIVATION]
+
+        int age = TakeInput.nextInt(); // Takes Integer Input.
+        String name = TakeInput.nextLine(); // Takes String Input.
+
+        TakeInput.close(); // [DEACTIVATION -- CLOSING OF THE SCANNER]
+
+        System.out.println(name + " is " + age + " years old.");
 
     }
 }
