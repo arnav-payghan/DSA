@@ -1,6 +1,6 @@
 package introductionToJava.inputOutput; // Need to update JDK version.
 
-import java.util.*;     // IMPORTS ALL UTILITY PACKAGES.
+// import java.util.*;     // IMPORTS ALL UTILITY PACKAGES.
 
 public class InputOutput {
     public static void main(String[] args) {
@@ -23,14 +23,14 @@ public class InputOutput {
 
         // INPUTS : Scanner, they need to be closed!
 
-        Scanner TakeInput = new Scanner(System.in); // TakeInput --> This is just a type of variable/name. [ACTIVATION]
+        // Scanner TakeInput = new Scanner(System.in); // TakeInput --> This is just a type of variable/name. [ACTIVATION]
 
-        int age = TakeInput.nextInt(); // Takes Integer Input.
-        String name = TakeInput.nextLine(); // Takes String Input.
+        // int age = TakeInput.nextInt(); // Takes Integer Input.
+        // String name = TakeInput.nextLine(); // Takes String Input.
 
-        TakeInput.close(); // [DEACTIVATION -- CLOSING OF THE SCANNER]
+        // TakeInput.close(); // [DEACTIVATION -- CLOSING OF THE SCANNER]
 
-        System.out.println(name + " is " + age + " years old.");
+        // System.out.println(name + " is " + age + " years old.");
 
     }
 }
