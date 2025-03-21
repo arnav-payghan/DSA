@@ -1,3 +1,6 @@
 # Time Complexity
 
-> Time Complexity is a way to measure <strong>how long it takes for an algorithm to run</strong>.
+-> Agenda (21-03-2025)
+- No. of iterations
+- Big O Notations
+
