@@ -11,9 +11,12 @@
     10-3+1 = 7+1 = 8
 
 THUS TO SOLVE -
-[] -> b-a+1
-() -> b-a-1
-[) -> b-a
+
+[ ] -> b-a+1
+
+( ) -> b-a-1
+
+[ ) -> b-a
 
 ## Arithmetic Progression:
 
@@ -32,3 +35,21 @@ a*(r) , a*(r)^2 , a*(r)^3 , a*(r)^4 ... a*(r)^(n-1)
 
     - a = Starting Starting Number/Digit/Value.
     - r = d = Common Ratio (multiple to get next number).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
